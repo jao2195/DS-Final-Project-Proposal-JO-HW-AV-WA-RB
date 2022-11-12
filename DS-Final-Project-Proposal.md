@@ -178,4 +178,4 @@ causes of dementia in NYC:
 | By Th Nov 18, 2022           | Complete Project Review With TA per Schedule                                 | All/Team    |
 | Tu Nov 29, 2022 (12pm - 6pm) | Scheduled Team Discussion Colaboration Meeting - Story Board                 | All/Team    |
 | Tu Dec 6, 2022 (12pm - 6pm)  | Scheduled Team Discussion Colaboration Meeting - Synthesis/Video Compilation | All/Team    |
-| Sa Dec 10, 2022              | Written Report/ Webpage Screen Cast/Peer Assessment                          | All/Team    |
+| Sa Dec 10, 2022              | Written Report/ Webpage Screen Cast/Peer Assessment/ Final Project Due       | All/Team    |
