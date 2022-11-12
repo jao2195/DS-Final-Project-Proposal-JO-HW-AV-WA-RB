@@ -1,6 +1,6 @@
 ---
 title: "DS Final Project Proposal"
-author: "Jennifer Osei, Harry Wang, Angelica Vina Albarrancin, William Anderson, Riya Bhilegaonkar
+author: "Jennifer Osei, Harry Wang, Angelica Vina Albarrancin, William Anderson, Riya Bhilegaonkar"
 date: "2022-11-12"
 output: html_document
 ---
@@ -16,4 +16,19 @@ Haoyang Wang - hw2850
 Jennifer Osei - jao2195
 Riya Bhilegaonkar - rsb2204
 Angelica Vina Albarrancin - av2718
+
+
+#The Tentative Project Title:
+
+#The Motivation for this Project:
+
+#The Intended Final Products:
+
+#The Anticipated Data Sources:
+
+#The Planned Analyses / Visualizations / Coding Challenges:
+
+#The Planned Timeline
+
+
 
