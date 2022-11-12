@@ -35,7 +35,7 @@ In this project, we hope to analyze NYC’s leading causes of death from
 and community-level factors (e.g., access to green spaces) to better
 understand how these factors contribute to the leading causes of the
 death in the city. We decided to focus on NYC as it’s the largest city
-in the US and one of the world’s most diverse cities. We choices the
+in the US and one of the world’s most diverse cities. We chose the
 period of 2007-2019 to focus on the modern causes of death in the city
 while avoiding confounding factors due to the COVID-19 outbreak.
 
@@ -55,26 +55,26 @@ as informed through epidemiology.
 
 Helpful NYC Health Data Resources:
 
--   <https://opendata.cityofnewyork.us/>
+- <https://opendata.cityofnewyork.us/>
 
--   <https://www.health.ny.gov/statistics/>
+- <https://www.health.ny.gov/statistics/>
 
--   <https://www.health.ny.gov/statistics/sparcs/access/>
+- <https://www.health.ny.gov/statistics/sparcs/access/>
 
 Income data:
 
--   <https://www.point2homes.com/US/Neighborhood/NY/New-York-City-Demographics.html>
+- <https://www.point2homes.com/US/Neighborhood/NY/New-York-City-Demographics.html>
 
--   <https://www.incomebyzipcode.com/newyork>
+- <https://www.incomebyzipcode.com/newyork>
 
--   <https://www.nyc.gov/site/hpd/services-and-information/area-median-income.page>
+- <https://www.nyc.gov/site/hpd/services-and-information/area-median-income.page>
 
 Age Data: \*
 <https://health.data.ny.gov/Health/Vital-Statistics-Deaths-by-Region-and-Age-Group-by/c3ns-hz2v>
 
--   <https://health.data.ny.gov/Health/Vital-Statistics-Opioid-Related-Deaths-by-Age-Grou/qabx-2sqw>
+- <https://health.data.ny.gov/Health/Vital-Statistics-Opioid-Related-Deaths-by-Age-Grou/qabx-2sqw>
 
--   <https://health.data.ny.gov/Health/Vital-Statistics-Suicide-Deaths-by-Age-Group-Race-/j6fz-a4ta>
+- <https://health.data.ny.gov/Health/Vital-Statistics-Suicide-Deaths-by-Age-Group-Race-/j6fz-a4ta>
 
 ## The Planned Analyses / Visualizations / Coding Challenges:
 
@@ -82,91 +82,91 @@ William Anderson is focusing on analyzing income as a predictor for
 different diseases that are the leading cause of death in NYC by
 analyzing the following:
 
--   Plot the correlation between income level and life expectancy
+- Plot the correlation between income level and life expectancy
 
--   Conduct statistical analysis to understand if income plays a role in
-    the survival probability of cancer, heart disease, and other
-    diseases
+- Conduct statistical analysis to understand if income plays a role in
+  the survival probability of cancer, heart disease, and other diseases
 
--   Visualize a map of neighborhoods in NYC with certain income levels
-    and the number of healthcare facilities within a certain radius
+- Visualize a map of neighborhoods in NYC with certain income levels and
+  the number of healthcare facilities within a certain radius
 
--   Stratify the leading causes of death by income level and observe
-    trends
+- Stratify the leading causes of death by income level and observe
+  trends
 
 Jennifer Osei is focusing on website development & analyzing race and
 education as a predictor for different diseases that are the leading
 cause of death in NYC by analyzing the following:
 
--   Plot the correlation between race, education, etc.
+- Plot the correlation between race, education, etc.
 
--   Conduct statistical analysis to understand if race or educational
-    attainment plays a role in the survival probability of cancer, heart
-    disease, and other diseases
+- Conduct statistical analysis to understand if race or educational
+  attainment plays a role in the survival probability of cancer, heart
+  disease, and other diseases
 
--   Visualize a map of neighborhoods in NYC by race and education with
-    certain and
+- Visualize a map of neighborhoods in NYC by race and education with
+  certain and
 
--   Stratify the leading causes of death by race, education and observe
-    trends using plots/ dynamic plots (to visualize over time period).
+- Stratify the leading causes of death by race, education and observe
+  trends using plots/ dynamic plots (to visualize over time period).
 
--   Data permitting, also want to examine access and type of health
-    insurance its relation to death outcomes.
+- Data permitting, also want to examine access and type of health
+  insurance its relation to death outcomes.
 
 Riya Bhilegaonkar is focusing on analyzing age as a predictor for
 different diseases that are the leading cause of death in NYC by
 analyzing the following:
 
--   Plot the correlation between income level and life expectancy
+- Plot the correlation between income level and life expectancy
 
--   Visualization for leading causes of death per age group
+- Visualization for leading causes of death per age group
 
--   Conduct statistical analysis to understand if race or educational
-    attainment plays a role in various diseases:
+- Conduct statistical analysis to understand if race or educational
+  attainment plays a role in various diseases:
 
--   Trend between age group and suicide related deaths (ANOVA,
-    Regression Analysis).
+- Trend between age group and suicide related deaths (ANOVA, Regression
+  Analysis).
 
--   Trend between age group and opioid related deaths (ANOVA, Regression
-    Analysis).
+- Trend between age group and opioid related deaths (ANOVA, Regression
+  Analysis).
 
--   Stratify the leading causes of death by age group and observe trends
+- Stratify the leading causes of death by age group and observe trends
 
 Haoyang Wang is focusing on investigating the top leading causes of
 death in NYC and the high morbidity of Cerebrovascular Disease in NYC by
 analyzing the following:
 
--   Visualize the top leading causes of death in NYC by morbidity with
-    bar plot.
+- Visualize the top leading causes of death in NYC by morbidity with bar
+  plot.
 
--   Visualize the top leading causes of death in NYC by neighborhood.
+- Visualize the top leading causes of death in NYC by neighborhood.
 
--   Analyze the major factors contributing to one of the top leading
-    causes of death in NYC, Cerebrovascular Disease.
+- Analyze the major factors contributing to one of the top leading
+  causes of death in NYC, Cerebrovascular Disease.
 
--   Conducting statistical analyses investigating the correlation
-    between these factors and NYC. In other ways, does NYC has a higher
-    morbidity of Cerebrovascular Disease and why.
+- Conducting statistical analyses investigating the correlation between
+  these factors and NYC. In other ways, does NYC has a higher morbidity
+  of Cerebrovascular Disease and why.
 
 Angelica Vina-Albarracin will focus on Alzheimer’s disease and other
-causes of dementia in NYC:  
+causes of dementia in NYC:
 
--   Visualize change over time patterns in Alzheimer’s disease diagnoses
-    and deaths
+- Visualize changes over time in Alzheimer’s disease diagnoses and the
+  number of deaths attributed to Alzheimer
 
--   Conduct statistical analysis to understand the relationship between
-    individual factors such as income, years of education, health
-    behaviors, etc., and Alzheimer’s diseases?
+- Conduct statistical analysis to understand the relationship between
+  individual-level factors such as income, years of education, family
+  history, etc., and the risk of death from Alzheimer’s diseases
 
--   Analy and visualize the distribution of Alzheimer’s diseases and
-    dementia deaths by NYC neighborhood, and explore which factors at
-    the neighborhood level might be contributing to these differences.?
+- Analyze and visualize the distribution of Alzheimer’s diseases and
+  dementia deaths by NYC neighborhood, and explore which factors at the
+  neighborhood-level might be contributing to these differences.
 
--   Explore the correlations between Alzheimer’s and dementia and other
-    chronic diseases such as diabetes and hypertension. How are these
-    diseases contributing to the changing patterns of Alzheimer’s
-    disease over time? What other factors, such as income and access to
-    preventative health care, come into play??
+- Explore the correlations between Alzheimer’s disease and other
+  chronic/preventable diseases such as diabetes and hypertension. How
+  are these diseases contributing to the changing patterns of
+  Alzheimer’s disease over time? What socioeconomic factors, such as
+  income and access to preventative health care, might contribute to an
+  increase/decrease risk of Alzheimer’s?
 
 ## The Planned Timeline
 
