@@ -114,10 +114,10 @@ Angelica Vina-Albarracin will focus on Alzheimer's disease and other causes of d
 
 ## The Planned Timeline
 
-```{r}
-timeline <- cbind( Dates = c("Mo Oct 31, 2022",  "Tu Nov 8, 2022", "Sa Nov 12, 2022", "By Th Nov 18, 2022", "Tu Nov 29, 2022 (12pm - 6pm)", "Tu Dec 6, 2022 (12pm - 6pm)" ), 
-                   Actions = c("Inital Team Formed / Inital Project Ideas Discussed", "Project Team Members Finalized", "Final Proposal Github Link Submitted", "Complete Project Review With TA per Schedule", " Scheduled Team Discussion Colaboration Meeting - Story Board", "Scheduled Team Discussion Colaboration Meeting - Synthesis/Video Compilation"),
-                   Contributor = c("All/Team","All/Team", "JO", "All/Team", "All/Team", "All/Team"))
+```{r, echo=FALSE}
+timeline <- cbind( Dates = c("Mo Oct 31, 2022",  "Tu Nov 8, 2022", "Sa Nov 12, 2022", "By Th Nov 18, 2022", "Tu Nov 29, 2022 (12pm - 6pm)", "Tu Dec 6, 2022 (12pm - 6pm)", " Sa Dec 10, 2022"), 
+                   Actions = c("Inital Team Formed / Inital Project Ideas Discussed", "Project Team Members Finalized", "Final Proposal Github Link Submitted", "Complete Project Review With TA per Schedule", " Scheduled Team Discussion Colaboration Meeting - Story Board", "Scheduled Team Discussion Colaboration Meeting - Synthesis/Video Compilation", "Written Report/ Webpage Screen Cast/Peer Assessment"),
+                   Contributor = c("All/Team","All/Team", "JO", "All/Team", "All/Team", "All/Team", "All/Team"))
 
 knitr::kable(timeline) 
 ```

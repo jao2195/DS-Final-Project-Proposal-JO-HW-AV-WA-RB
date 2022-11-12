@@ -170,14 +170,6 @@ causes of dementia in NYC:
 
 ## The Planned Timeline
 
-``` r
-timeline <- cbind( Dates = c("Mo Oct 31, 2022",  "Tu Nov 8, 2022", "Sa Nov 12, 2022", "By Th Nov 18, 2022", "Tu Nov 29, 2022 (12pm - 6pm)", "Tu Dec 6, 2022 (12pm - 6pm)" ), 
-                   Actions = c("Inital Team Formed / Inital Project Ideas Discussed", "Project Team Members Finalized", "Final Proposal Github Link Submitted", "Complete Project Review With TA per Schedule", " Scheduled Team Discussion Colaboration Meeting - Story Board", "Scheduled Team Discussion Colaboration Meeting - Synthesis/Video Compilation"),
-                   Contributor = c("All/Team","All/Team", "JO", "All/Team", "All/Team", "All/Team"))
-
-knitr::kable(timeline) 
-```
-
 | Dates                        | Actions                                                                      | Contributor |
 |:-----------------------------|:-----------------------------------------------------------------------------|:------------|
 | Mo Oct 31, 2022              | Inital Team Formed / Inital Project Ideas Discussed                          | All/Team    |
@@ -186,3 +178,4 @@ knitr::kable(timeline)
 | By Th Nov 18, 2022           | Complete Project Review With TA per Schedule                                 | All/Team    |
 | Tu Nov 29, 2022 (12pm - 6pm) | Scheduled Team Discussion Colaboration Meeting - Story Board                 | All/Team    |
 | Tu Dec 6, 2022 (12pm - 6pm)  | Scheduled Team Discussion Colaboration Meeting - Synthesis/Video Compilation | All/Team    |
+| Sa Dec 10, 2022              | Written Report/ Webpage Screen Cast/Peer Assessment                          | All/Team    |
