@@ -65,17 +65,18 @@ William Anderson is focusing on analyzing income as a predictor for different di
 
 -   Stratify the leading causes of death by income level and observe trends
 
+
 Jennifer Osei is focusing on website development & analyzing race and education as a predictor for different diseases that are the leading cause of death in NYC by analyzing the following:
 
-William Anderson is focusing on analyzing income as a predictor for different diseases that are the leading cause of death in NYC by analyzing the following:
+* Plot the correlation between race, education, etc.
 
--   Plot the correlation between income level and life expectancy
+* Conduct statistical analysis to understand if race or educational attainment plays a role in the survival probability of cancer, heart disease, and other diseases
 
--   Conduct statistical analysis to understand if income plays a role in the survival probability of cancer, heart disease, and other diseases
+* Visualize a map of neighborhoods in NYC by race and education with certain and
 
--   Visualize a map of neighborhoods in NYC with certain income levels and the number of healthcare facilities within a certain radius
+* Stratify the leading causes of death by race, education and observe trends using plots/ dynamic plots (to visualize over time period).
 
--   Stratify the leading causes of death by income level and observe trends
+* Data permitting, also want to examine access and type of health insurance its relation to death outcomes.
 
 Riya Bhilegaonkar is focusing on analyzing age as a predictor for different diseases that are the leading cause of death in NYC by analyzing the following:
 
@@ -105,11 +106,11 @@ Angelica Vina-Albarracin will focus on Alzheimer's disease and other causes of d
 
 -   Visualize change over time patterns in Alzheimer's disease diagnoses and deaths
 
--   Conduct statistical analysis to understand the relationship between individual factors such as income, years of education, health behaviors, etc., and Alzheimer's diseases 
+-   Conduct statistical analysis to understand the relationship between individual factors such as income, years of education, health behaviors, etc., and Alzheimer's diseases?
 
--   Analy and visualize the distribution of Alzheimer's diseases and dementia deaths by NYC neighborhood, and explore which factors at the neighborhood level might be contributing to these differences. 
+-   Analy and visualize the distribution of Alzheimer's diseases and dementia deaths by NYC neighborhood, and explore which factors at the neighborhood level might be contributing to these differences.?
 
--   Explore the correlations between Alzheimer's and dementia and other chronic diseases such as diabetes and hypertension. How are these diseases contributing to the changing patterns of Alzheimer's disease over time? What other factors, such as income and access to preventative health care, come into play? 
+-   Explore the correlations between Alzheimer's and dementia and other chronic diseases such as diabetes and hypertension. How are these diseases contributing to the changing patterns of Alzheimer's disease over time? What other factors, such as income and access to preventative health care, come into play??
 
 ## The Planned Timeline
 
