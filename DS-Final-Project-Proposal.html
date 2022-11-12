@@ -371,18 +371,44 @@ William Anderson, Riya Bhilegaonkar</h4>
 </div>
 
 
-<p>#Team registration and proposal</p>
+<div id="team-registration-and-proposal" class="section level2">
+<h2>Team registration and proposal</h2>
 <p>First, you will define your teams and propose a project. This
 proposal should be a half-page to a page in length and include:</p>
-<p>#The Group Members (names and UNIs)</p>
+</div>
+<div id="the-group-members-names-and-unis" class="section level2">
+<h2>The Group Members (names and UNIs)</h2>
 <p>William Anderson - waa2119 Haoyang Wang - hw2850 Jennifer Osei -
 jao2195 Riya Bhilegaonkar - rsb2204 Angelica Vina Albarrancin -
 av2718</p>
-<p>#The Tentative Project Title:</p>
+</div>
+<div id="the-tentative-project-title" class="section level2">
+<h2>The Tentative Project Title:</h2>
 <p>Investigating the leading causes of death in NYC</p>
-<p>#The Motivation for this Project:</p>
-<p>#The Intended Final Products:</p>
-<p>#The Anticipated Data Sources:</p>
+</div>
+<div id="the-motivation-for-this-project" class="section level2">
+<h2>The Motivation for this Project:</h2>
+<p>As a group we were inspired by the historical transition of the
+popular causes of death that we encountered in our epidemiology class
+starting from the initial contributions of the Bills of Mortality to
+modern day leading cause of heart disease. We hope to analyze the
+leading causes of death in NYC over the time period of 2007-2019. From a
+pre-covid era analysis we hope to avoid any confounding factors of
+COVID-19 infections. In particular we hope to investigate predictors
+that play a role in selected causes of death.</p>
+</div>
+<div id="the-intended-final-products" class="section level2">
+<h2>The Intended Final Products:</h2>
+<p>Webpage that includes visualizations and test results for the impact
+of various predictors such as age, income, race, education status on
+leading causes of death in NYC. Each page of the website will contain an
+analysis of a predictor done by each individual in the group. The final
+product will be a data story that contains reference to historical
+progression of leading causes of death as informed through
+epidemiology.</p>
+</div>
+<div id="the-anticipated-data-sources" class="section level2">
+<h2>The Anticipated Data Sources:</h2>
 <p>Helpful NYC Health Data Resources:</p>
 <ul>
 <li><p><a href="https://opendata.cityofnewyork.us/" class="uri">https://opendata.cityofnewyork.us/</a></p></li>
@@ -395,7 +421,14 @@ av2718</p>
 <li><p><a href="https://www.incomebyzipcode.com/newyork" class="uri">https://www.incomebyzipcode.com/newyork</a></p></li>
 <li><p><a href="https://www.nyc.gov/site/hpd/services-and-information/area-median-income.page" class="uri">https://www.nyc.gov/site/hpd/services-and-information/area-median-income.page</a></p></li>
 </ul>
-<p>#The Planned Analyses / Visualizations / Coding Challenges:</p>
+<p>Age Data: * <a href="https://health.data.ny.gov/Health/Vital-Statistics-Deaths-by-Region-and-Age-Group-by/c3ns-hz2v" class="uri">https://health.data.ny.gov/Health/Vital-Statistics-Deaths-by-Region-and-Age-Group-by/c3ns-hz2v</a></p>
+<ul>
+<li><p><a href="https://health.data.ny.gov/Health/Vital-Statistics-Opioid-Related-Deaths-by-Age-Grou/qabx-2sqw" class="uri">https://health.data.ny.gov/Health/Vital-Statistics-Opioid-Related-Deaths-by-Age-Grou/qabx-2sqw</a></p></li>
+<li><p><a href="https://health.data.ny.gov/Health/Vital-Statistics-Suicide-Deaths-by-Age-Group-Race-/j6fz-a4ta" class="uri">https://health.data.ny.gov/Health/Vital-Statistics-Suicide-Deaths-by-Age-Group-Race-/j6fz-a4ta</a></p></li>
+</ul>
+</div>
+<div id="the-planned-analyses-visualizations-coding-challenges" class="section level2">
+<h2>The Planned Analyses / Visualizations / Coding Challenges:</h2>
 <p>William Anderson is focusing on analyzing income as a predictor for
 different diseases that are the leading cause of death in NYC by
 analyzing the following:</p>
@@ -427,7 +460,25 @@ period).</p></li>
 <li><p>Data permitting, also want to examine access and type of health
 insurance its relation to death outcomes.</p></li>
 </ul>
-<p>#The Planned Timeline</p>
+<p>Riya Bhilegaonkar is focusing on analyzing age as a predictor for
+different diseases that are the leading cause of death in NYC by
+analyzing the following:</p>
+<ul>
+<li><p>Plot the correlation between income level and life
+expectancy</p></li>
+<li><p>Visualization for leading causes of death per age group</p></li>
+<li><p>Conduct statistical analysis to understand if race or educational
+attainment plays a role in various diseases:</p></li>
+<li><p>Trend between age group and suicide related deaths (ANOVA,
+Regression Analysis).</p></li>
+<li><p>Trend between age group and opioid related deaths (ANOVA,
+Regression Analysis).</p></li>
+<li><p>Stratify the leading causes of death by age group and observe
+trends</p></li>
+</ul>
+</div>
+<div id="the-planned-timeline" class="section level2">
+<h2>The Planned Timeline</h2>
 <pre class="r"><code>timeline &lt;- cbind( Dates = c(&quot;Mo Oct 31, 2022&quot;,  &quot;Tu Nov 8, 2022&quot;, &quot;Sa Nov 12, 2022&quot;, &quot;By Th Nov 18, 2022&quot;, &quot;Tu Nov 29, 2022 (12pm - 6pm)&quot;, &quot;Tu Dec 6, 2022 (12pm - 6pm)&quot; ), 
                    Actions = c(&quot;Inital Team Formed / Inital Project Ideas Discussed&quot;, &quot;Project Team Members Finalized&quot;, &quot;Final Proposal Github Link Submitted&quot;, &quot;Complete Project Review With TA per Schedule&quot;, &quot; Scheduled Team Discussion Colaboration Meeting - Story Board&quot;, &quot;Scheduled Team Discussion Colaboration Meeting - Synthesis/Video Compilation&quot;),
                    Contributor = c(&quot;All/Team&quot;,&quot;All/Team&quot;, &quot;JO&quot;, &quot;All/Team&quot;, &quot;All/Team&quot;, &quot;All/Team&quot;))
@@ -482,6 +533,7 @@ Synthesis/Video Compilation</td>
 </tr>
 </tbody>
 </table>
+</div>
 
 
 
