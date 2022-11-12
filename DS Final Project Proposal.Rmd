@@ -21,7 +21,7 @@ NYC Bills of Mortality: Investigating the leading causes of death in New York Ci
 
 As a group, we are inspired by the historical changes in the health problems in a community, mortality patterns, and leading causes of death. The image below shows a sign in a cemetery in Dudley, England, in 1839. At the time, cholera was the primary cause of death in England. Nowadays, the leading cause of death in England, like in the US and most industrialized countries, is heart disease, with social and racial disparities in mortality from chronic diseases becoming the major challenge.
 
-In this project, we hope to analyze NYC's leading causes of death from 2007-2019, focusing on individual-level factors (e.g., personal income) and community-level factors (e.g., access to green spaces) to better understand how these factors contribute to the leading causes of the death in the city. We decided to focus on NYC as it's the largest city in the US and one of the world's most diverse cities. We choices the period of 2007-2019 to focus on the modern causes of death in the city while avoiding confounding factors due to the COVID-19 outbreak.
+In this project, we hope to analyze NYC's leading causes of death from 2007-2019, focusing on individual-level factors (e.g., personal income) and community-level factors (e.g., access to green spaces) to better understand how these factors contribute to the leading causes of the death in the city. We decided to focus on NYC as it's the largest city in the US and one of the world's most diverse cities. We chose the period of 2007-2019 to focus on the modern causes of death in the city while avoiding confounding factors due to the COVID-19 outbreak.
 
 ![](images/cholera.png){width="351"}
 
@@ -102,15 +102,17 @@ Haoyang Wang is focusing on investigating the top leading causes of death in NYC
 
 -   Conducting statistical analyses investigating the correlation between these factors and NYC. In other ways, does NYC has a higher morbidity of Cerebrovascular Disease and why.
 
-Angelica Vina-Albarracin will focus on Alzheimer's disease and other causes of dementia in NYC:\
 
--   Visualize change over time patterns in Alzheimer's disease diagnoses and deaths
+Angelica Vina-Albarracin will focus on Alzheimer's disease and other causes of dementia in NYC:
 
--   Conduct statistical analysis to understand the relationship between individual factors such as income, years of education, health behaviors, etc., and Alzheimer's diseases?
+-   Visualize changes over time in Alzheimer's disease diagnoses and the number of deaths attributed to Alzheimer.
 
--   Analy and visualize the distribution of Alzheimer's diseases and dementia deaths by NYC neighborhood, and explore which factors at the neighborhood level might be contributing to these differences.?
+-   Conduct statistical analysis to understand the relationship between individual-level factors such as income, years of education, family history, etc., and the risk of death from Alzheimer's diseases.
 
--   Explore the correlations between Alzheimer's and dementia and other chronic diseases such as diabetes and hypertension. How are these diseases contributing to the changing patterns of Alzheimer's disease over time? What other factors, such as income and access to preventative health care, come into play??
+-   Analyze and visualize the distribution of Alzheimer's diseases and dementia deaths by NYC neighborhood, and explore which factors at the neighborhood-level might be contributing to these differences.
+
+-   Explore the correlations between Alzheimer's disease and other chronic/preventable diseases such as diabetes and hypertension. How are these diseases contributing to the changing patterns of Alzheimer's disease over time? What socioeconomic factors, such as income and access to preventative health care, might contribute to an increase/decrease risk of Alzheimer's?
+
 
 ## The Planned Timeline
 
