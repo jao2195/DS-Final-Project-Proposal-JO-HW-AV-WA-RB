@@ -53,8 +53,6 @@ Income data:
 #The Planned Analyses / Visualizations / Coding Challenges:
 
 
-
-
 William Anderson is focusing on analyzing income as a predictor for different diseases that are the leading cause of death in NYC by analyzing the following:
 
 * Plot the correlation between income level and life expectancy
@@ -66,7 +64,28 @@ William Anderson is focusing on analyzing income as a predictor for different di
 * Stratify the leading causes of death by income level and observe trends
 
 
+Jennifer Osei is focusing on website development & analyzing race and education as a predictor for different diseases that are the leading cause of death in NYC by analyzing the following:
+
+* Plot the correlation between race, education, etc.
+
+* Conduct statistical analysis to understand if race or educational attainment plays a role in the survival probability of cancer, heart disease, and other diseases
+
+* Visualize a map of neighborhoods in NYC by race and education with certain and
+
+* Stratify the leading causes of death by race, education and observe trends using plots/ dynamic plots (to visualize over time period).
+
+* Data permitting, also want to examine access and type of health insurance its relation to death outcomes. 
+
+
+
 #The Planned Timeline
 
+```{r}
+timeline <- cbind( Dates = c("Mo Oct 31, 2022",  "Tu Nov 8, 2022", "Sa Nov 12, 2022", "By Th Nov 18, 2022", "Tu Nov 29, 2022 (12pm - 6pm)", "Tu Dec 6, 2022 (12pm - 6pm)" ), 
+                   Actions = c("Inital Team Formed / Inital Project Ideas Discussed", "Project Team Members Finalized", "Final Proposal Github Link Submitted", "Complete Project Review With TA per Schedule", " Scheduled Team Discussion Colaboration Meeting - Story Board", "Scheduled Team Discussion Colaboration Meeting - Synthesis/Video Compilation"),
+                   Contributor = c("All/Team","All/Team", "JO", "All/Team", "All/Team", "All/Team"))
+
+knitr::kable(timeline) 
+```
 
 
