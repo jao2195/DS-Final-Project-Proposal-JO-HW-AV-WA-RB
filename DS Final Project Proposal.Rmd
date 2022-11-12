@@ -1,6 +1,6 @@
 ---
 title: "DS Final Project Proposal"
-author: "Jennifer Osei, Harry Wang, Angelica Vina Albarrancin, William Anderson, Riya Bhilegaonkar"
+author: "Jennifer Osei, Haoyang Wang, Angelica Vina Albarrancin, William Anderson, Riya Bhilegaonkar"
 date: "2022-11-12"
 output: github_document
 ---
@@ -86,20 +86,31 @@ Jennifer Osei is focusing on website development & analyzing race and education 
 
 * Data permitting, also want to examine access and type of health insurance its relation to death outcomes. 
 
+
 Riya Bhilegaonkar is focusing on analyzing age as a predictor for different diseases that are the leading cause of death in NYC by analyzing the following:
 
 * Plot the correlation between income level and life expectancy
 
-*  Visualization for leading causes of death per age group
+* Visualization for leading causes of death per age group
 
 * Conduct statistical analysis to understand if race or educational attainment plays a role in various diseases:
 
-*  Trend between age group and suicide related deaths (ANOVA, Regression Analysis).
+* Trend between age group and suicide related deaths (ANOVA, Regression Analysis).
 
-*  Trend  between age group and opioid related deaths (ANOVA, Regression Analysis).
+* Trend between age group and opioid related deaths (ANOVA, Regression Analysis).
 
-*  Stratify the leading causes of death by age group  and observe trends
+* Stratify the leading causes of death by age group and observe trends
 
+
+Haoyang Wang is focusing on investigating the top leading causes of death in NYC and the high morbidity of Cerebrovascular Disease in NYC by analyzing the following:
+
+* Visualize the top leading causes of death in NYC by morbidity with bar plot.
+
+* Visualize the top leading causes of death in NYC by neighborhood.
+
+* Analyze the major factors contributing to one of the top leading causes of death in NYC, Cerebrovascular Disease.
+
+* Conducting statistical analyses investigating the correlation between these factors and NYC. In other ways, does NYC has a higher morbidity of Cerebrovascular Disease and why.
 
 
 ## The Planned Timeline

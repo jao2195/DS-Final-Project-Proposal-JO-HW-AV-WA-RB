@@ -1,7 +1,7 @@
 DS Final Project Proposal
 ================
-Jennifer Osei, Harry Wang, Angelica Vina Albarrancin, William Anderson,
-Riya Bhilegaonkar
+Jennifer Osei, Haoyang Wang, Angelica Vina Albarrancin, William
+Anderson, Riya Bhilegaonkar
 2022-11-12
 
 ## Team registration and proposal
@@ -118,6 +118,22 @@ analyzing the following:
     Analysis).
 
 -   Stratify the leading causes of death by age group and observe trends
+
+Haoyang Wang is focusing on investigating the top leading causes of
+death in NYC and the high morbidity of Cerebrovascular Disease in NYC by
+analyzing the following:
+
+-   Visualize the top leading causes of death in NYC by morbidity with
+    bar plot.
+
+-   Visualize the top leading causes of death in NYC by neighborhood.
+
+-   Analyze the major factors contributing to one of the top leading
+    causes of death in NYC, Cerebrovascular Disease.
+
+-   Conducting statistical analyses investigating the correlation
+    between these factors and NYC. In other ways, does NYC has a higher
+    morbidity of Cerebrovascular Disease and why.
 
 ## The Planned Timeline
 
