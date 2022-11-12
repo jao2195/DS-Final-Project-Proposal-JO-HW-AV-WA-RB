@@ -101,6 +101,16 @@ Haoyang Wang is focusing on investigating the top leading causes of death in NYC
 
 -   Conducting statistical analyses investigating the correlation between these factors and NYC. In other ways, does NYC has a higher morbidity of Cerebrovascular Disease and why.
 
+Angelica Vina-Albarracin will focus on Alzheimer's disease and other causes of dementia in NYC:\
+
+-   Visualize change over time patterns in Alzheimer's disease diagnoses and deaths
+
+-   Conduct statistical analysis to understand the relationship between individual factors such as income, years of education, health behaviors, etc., and Alzheimer's diseases 
+
+-   Analy and visualize the distribution of Alzheimer's diseases and dementia deaths by NYC neighborhood, and explore which factors at the neighborhood level might be contributing to these differences. 
+
+-   Explore the correlations between Alzheimer's and dementia and other chronic diseases such as diabetes and hypertension. How are these diseases contributing to the changing patterns of Alzheimer's disease over time? What other factors, such as income and access to preventative health care, come into play? 
+
 ## The Planned Timeline
 
 ```{r}
