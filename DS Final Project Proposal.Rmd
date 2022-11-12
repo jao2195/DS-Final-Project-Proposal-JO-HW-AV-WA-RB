@@ -24,21 +24,15 @@ Investigating the leading causes of death in NYC
 
 #The Motivation for this Project:
 
-The motivation is to investigate the leading causes of death in NYC between approximately 2007 - 2019  and identify different predictors and factors that play a role in the selected causes of death. 
 
 #The Intended Final Products:
 
-A webpage that includes visualizations and test results for the impact of various predictors such as age, income, race, education status on leading causes of death in NYC. Each page of the website will contain an analysis of a predictor done by each individual in the group. The final product will be a data story that contains reference to historical progression of leading causes of death as informed through epidemiology.
+
 
 #The Anticipated Data Sources:
 
-The anticipate data sources we intend to use are listed below: 
 
-Leading causes of death in NYC: 
-
-* https://data.cityofnewyork.us/Health/New-York-City-Leading-Causes-of-Death/jb7j-dtam
-
-Other helpful NYC Health Data Resources: 
+Helpful NYC Health Data Resources: 
 
 * https://opendata.cityofnewyork.us/
 
@@ -58,7 +52,8 @@ Income data:
 
 #The Planned Analyses / Visualizations / Coding Challenges:
 
-An interactive website demonstrating the relationship between different factors with leading causes of death in New York City. A bar plot showing the top five leading causes of death in New York City. The coding challenges could be tidying raw data; conducting statistical analyses such as regression, ANOVA, etc.
+
+
 
 William Anderson is focusing on analyzing income as a predictor for different diseases that are the leading cause of death in NYC by analyzing the following:
 
