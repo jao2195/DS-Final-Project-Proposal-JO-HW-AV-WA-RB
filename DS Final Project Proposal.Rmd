@@ -1,0 +1,19 @@
+---
+title: "DS Final Project Proposal"
+author: "Jennifer Osei, Harry Wang, Angelica Vina Albarrancin, William Anderson, Riya Bhilegaonkar
+date: "2022-11-12"
+output: html_document
+---
+
+#Team registration and proposal
+
+First, you will define your teams and propose a project. This proposal should be a half-page to a page in length and include:
+
+#The Group Members (names and UNIs)
+
+William Anderson - waa2119
+Haoyang Wang - hw2850
+Jennifer Osei - jao2195
+Riya Bhilegaonkar - rsb2204
+Angelica Vina Albarrancin - av2718
+
