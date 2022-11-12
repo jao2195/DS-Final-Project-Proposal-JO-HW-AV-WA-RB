@@ -2,7 +2,7 @@
 title: "DS Final Project Proposal"
 author: "Jennifer Osei, Harry Wang, Angelica Vina Albarrancin, William Anderson, Riya Bhilegaonkar"
 date: "2022-11-12"
-output: html_document
+output: github_document
 ---
 
 ## Team registration and proposal
