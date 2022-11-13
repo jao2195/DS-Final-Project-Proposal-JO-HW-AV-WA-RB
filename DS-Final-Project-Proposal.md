@@ -1,7 +1,7 @@
 DS Final Project Proposal
 ================
-Jennifer Osei, Harry Wang, Angelica Vina Albarrancin, William Anderson,
-Riya Bhilegaonkar
+Jennifer Osei, Haoyang Wang, Angelica Vina Albarrancin, William
+Anderson, Riya Bhilegaonkar
 2022-11-12
 
 ## Team registration and proposal
@@ -11,32 +11,45 @@ should be a half-page to a page in length and include:
 
 ## The Group Members (names and UNIs)
 
-William Anderson - waa2119 Haoyang Wang - hw2850 Jennifer Osei - jao2195
-Riya Bhilegaonkar - rsb2204 Angelica Vina Albarrancin - av2718
+William Anderson - waa2119 Riya Bhilegaonkar - rsb2204 Jennifer Osei -
+jao2195 Haoyang Wang - hw2850 Angelica Vina Albarrancin - av2718
 
 ## The Tentative Project Title:
 
-Investigating the leading causes of death in NYC
+NYC Bills of Mortality: Investigating the leading causes of death in New
+York City
 
 ## The Motivation for this Project:
 
-As a group we were inspired by the historical transition of the popular
-causes of death that we encountered in our epidemiology class starting
-from the initial contributions of the Bills of Mortality to modern day
-leading cause of heart disease. We hope to analyze the leading causes of
-death in NYC over the time period of 2007-2019. From a pre-covid era
-analysis we hope to avoid any confounding factors of COVID-19
-infections. In particular we hope to investigate predictors that play a
-role in selected causes of death.
+As a group, we are inspired by the historical changes in the health
+problems in a community, mortality patterns, and leading causes of
+death. The image below shows a sign in a cemetery in Dudley, England, in
+1839. At the time, cholera was the primary cause of death in England.
+Nowadays, the leading cause of death in England, like in the US and most
+industrialized countries, is heart disease, with social and racial
+disparities in mortality from chronic diseases becoming the major
+challenge.
+
+In this project, we hope to analyze NYC’s leading causes of death from
+2007-2019, focusing on individual-level factors (e.g., personal income)
+and community-level factors (e.g., access to green spaces) to better
+understand how these factors contribute to the leading causes of the
+death in the city. We decided to focus on NYC as it’s the largest city
+in the US and one of the world’s most diverse cities. We chose the
+period of 2007-2019 to focus on the modern causes of death in the city
+while avoiding confounding factors due to the COVID-19 outbreak.
+
+<img src="images/cholera.png" width="351" />
 
 ## The Intended Final Products:
 
 Webpage that includes visualizations and test results for the impact of
-various predictors such as age, income, race, education status on
-leading causes of death in NYC. Each page of the website will contain an
-analysis of a predictor done by each individual in the group. The final
-product will be a data story that contains reference to historical
-progression of leading causes of death as informed through epidemiology.
+various predictors such as age, income, race, education status, air
+quality, green spaces, etc., on leading causes of death in NYC. Each
+page of the website will contain an analysis of a predictor done by each
+individual in the group. The final product will be a data story that
+contains reference to historical progression of leading causes of death
+as informed through epidemiology.
 
 ## The Anticipated Data Sources:
 
@@ -119,15 +132,44 @@ analyzing the following:
 
 -   Stratify the leading causes of death by age group and observe trends
 
+Haoyang Wang is focusing on investigating the top leading causes of
+death in NYC and the high morbidity of Cerebrovascular Disease in NYC by
+analyzing the following:
+
+-   Visualize the top leading causes of death in NYC by morbidity with
+    bar plot.
+
+-   Visualize the top leading causes of death in NYC by neighborhood.
+
+-   Analyze the major factors contributing to one of the top leading
+    causes of death in NYC, Cerebrovascular Disease.
+
+-   Conducting statistical analyses investigating the correlation
+    between these factors and NYC. In other ways, does NYC has a higher
+    morbidity of Cerebrovascular Disease and why.
+
+Angelica Vina-Albarracin will focus on Alzheimer’s disease and other
+causes of dementia in NYC:
+
+-   Visualize changes over time in Alzheimer’s disease diagnoses and the
+    number of deaths attributed to Alzheimer.
+
+-   Conduct statistical analysis to understand the relationship between
+    individual-level factors such as income, years of education, family
+    history, etc., and the risk of death from Alzheimer’s diseases.
+
+-   Analyze and visualize the distribution of Alzheimer’s diseases and
+    dementia deaths by NYC neighborhood, and explore which factors at
+    the neighborhood-level might be contributing to these differences.
+
+-   Explore the correlations between Alzheimer’s disease and other
+    chronic/preventable diseases such as diabetes and hypertension. How
+    are these diseases contributing to the changing patterns of
+    Alzheimer’s disease over time? What socioeconomic factors, such as
+    income and access to preventative health care, might contribute to
+    an increase/decrease risk of Alzheimer’s?
+
 ## The Planned Timeline
-
-``` r
-timeline <- cbind( Dates = c("Mo Oct 31, 2022",  "Tu Nov 8, 2022", "Sa Nov 12, 2022", "By Th Nov 18, 2022", "Tu Nov 29, 2022 (12pm - 6pm)", "Tu Dec 6, 2022 (12pm - 6pm)" ), 
-                   Actions = c("Inital Team Formed / Inital Project Ideas Discussed", "Project Team Members Finalized", "Final Proposal Github Link Submitted", "Complete Project Review With TA per Schedule", " Scheduled Team Discussion Colaboration Meeting - Story Board", "Scheduled Team Discussion Colaboration Meeting - Synthesis/Video Compilation"),
-                   Contributor = c("All/Team","All/Team", "JO", "All/Team", "All/Team", "All/Team"))
-
-knitr::kable(timeline) 
-```
 
 | Dates                        | Actions                                                                      | Contributor |
 |:-----------------------------|:-----------------------------------------------------------------------------|:------------|
@@ -137,3 +179,4 @@ knitr::kable(timeline)
 | By Th Nov 18, 2022           | Complete Project Review With TA per Schedule                                 | All/Team    |
 | Tu Nov 29, 2022 (12pm - 6pm) | Scheduled Team Discussion Colaboration Meeting - Story Board                 | All/Team    |
 | Tu Dec 6, 2022 (12pm - 6pm)  | Scheduled Team Discussion Colaboration Meeting - Synthesis/Video Compilation | All/Team    |
+| Sa Dec 10, 2022              | Written Report/ Webpage Screen Cast/Peer Assessment/ Final Project Due       | All/Team    |
