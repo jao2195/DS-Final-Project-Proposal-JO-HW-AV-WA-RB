@@ -1,0 +1,10 @@
+name: "Data Science Project"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Introduction to Project"
+      href: index.html
+output:
+  html_document:
+    theme: cerulean
