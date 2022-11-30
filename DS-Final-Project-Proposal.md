@@ -117,7 +117,9 @@ Riya Bhilegaonkar is focusing on analyzing age as a predictor for
 different diseases that are the leading cause of death in NYC by
 analyzing the following:
 
--   Plot the correlation between age group and life expectancy
+\<\<\<\<\<\<\< HEAD \* Plot the correlation between age group and life
+expectancy ======= - Plot the correlation between income level and life
+expectancy \>\>\>\>\>\>\> 99c06a990f09eb4494caa3d4cd0b46c4f4aaf87c
 
 -   Visualization for leading causes of death per age group
 

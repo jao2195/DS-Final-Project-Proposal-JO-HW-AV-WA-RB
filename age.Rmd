@@ -1,0 +1,77 @@
+---
+title: "Age as a predictor of Death"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r include = FALSE}
+library(tidyverse)
+library(dplyr)
+library(patchwork)
+library(leaflet)
+library(lubridate)
+library(rvest)
+library(httr)
+library(flexdashboard)
+library(plotly)
+library(viridis)
+library(stringr)
+knitr::opts_chunk$set(
+  fig.width = 6,
+  fig.asp = .6,
+  out.width = "90%"
+)
+theme_set(theme_minimal() + theme(legend.position = "bottom"))
+options(
+  ggplot2.continuous.colour = "viridis",
+  ggplot2.continuous.fill = "viridis"
+)
+scale_colour_discrete = scale_colour_viridis_d
+scale_fill_discrete = scale_fill_viridis_d
+```
+
+```{r, loading and cleaning data}
+#datasets for exploratory analysis
+death_in_nys = read_csv("data/Vital_Statistics_Deaths_by_Region_and_Age-Group_by_Selected_Cause_of_Death___Beginning_2003.csv") %>%
+  janitor::clean_names()
+
+death_by_age = read_csv("data/Vital_Statistics_Deaths_by_Resident_County__Region__and_Age-Group__Beginning_2003.csv") %>%
+  janitor::clean_names() %>%
+  filter(region == "NYC")
+
+opiod_death = read_csv("data/Vital_Statistics__Opioid-Related_Deaths_by_Age_Group__Beginning_2003.csv") %>%
+  janitor::clean_names()
+
+suicide_death = read_csv("data/Vital_Statistics_Suicide_Deaths_by_Age-Group__Race_Ethnicity__Resident_Region__and_Gender__Beginning_2003.csv") %>%
+  janitor::clean_names()
+
+#merging datasets for statistical analysis
+predictor_age = left_join(opiod_death, suicide_death, by = c("year", "sex", "region", "race_or_ethnicity", "age_group")) %>%
+  filter(region == "NYC")
+
+```
+
+### Leading causes of death in New York State by Age Group
+```{r, message=FALSE, warning=FALSE}
+death_in_nys %>%
+  filter(age_group != "Unknown") %>%
+group_by(year, age_group, selected_cause_of_death)%>%
+  ggplot(aes(x=year, y=deaths, color=selected_cause_of_death))+
+  geom_bar(stat="identity")+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+  facet_grid(~age_group)
+
+```
+
+### Trends of the number of deaths by age group by county in the NYC region over the years
+
+```{r, message=FALSE, warning=FALSE}
+death_by_age %>%
+  filter(age_group !="Total" & age_group !="Unknown") %>%
+  group_by(county_name, age_group) %>%
+  ggplot(aes(x=year, y = deaths, color = age_group)) +
+  geom_line()+
+  facet_grid(~county_name)
+```

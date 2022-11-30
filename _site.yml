@@ -5,6 +5,8 @@ navbar:
   right:
     - text: "Introduction to Project"
       href: index.html
+    - text:"Age as a Predictor"
+      href: age.html
 output:
   html_document:
     theme: cerulean
