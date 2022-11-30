@@ -1,11 +1,9 @@
-name: "Data Science Project"
+name: "Data Science Final Project"
 output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "Introduction to Project"
-      href: index.html
-    - text:"Age as a Predictor"
+    - text: "Age as a predictor"
       href: age.html
 output:
   html_document:
